@@ -17,7 +17,15 @@ $azulito:navy;
 .contenedor{
     margin-left: 5%;
     margin-right: 5%;
+
+    @media screen and (max-width:500px){
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
+
+
+
 
 header{
     width: 100%;
@@ -228,6 +236,8 @@ header{
                     align-items: center;
                     padding: 0px;
                 }
+
+
     
                 div::after{
                     content: '⭑';
@@ -460,10 +470,10 @@ header{
             }
             h1{
                 font-size: 40px;
-                color: $azulito;
+                padding:20px;
 
                 @media screen and (max-width:474px){
-                    padding: 0;
+                    padding: 20px;
                     font-size: 30px;
                     line-height:normal;
                 }
@@ -788,8 +798,9 @@ footer{
         div{
             width: 250px;
             margin: 50px auto;
-            @media screen and (max-width:400px) {
+            @media screen and (max-width:550px) {
                 width: 100%;
+                margin: 50px 0px;
             }
             h2{
                 color: $azulito;
@@ -821,10 +832,14 @@ footer{
         justify-content: center;
         align-items: center;
         background: #222f3e;
+        @media screen and (max-width:400px) {
+            text-align: center;
+        }
         p{
             color: white;
             font-size: 14px;
             padding: 20px;
+
 
             a{
                 text-decoration: none;

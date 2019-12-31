@@ -17,6 +17,13 @@ body {
   margin-right: 5%;
 }
 
+@media screen and (max-width: 500px) {
+  .contenedor {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 header {
   width: 100%;
   height: auto;
@@ -641,12 +648,12 @@ header .seccion-menu .div-sec-menu a:hover {
 
 .seccion-4 .div-sec-4 .divTit h1 {
   font-size: 40px;
-  color: navy;
+  padding: 20px;
 }
 
 @media screen and (max-width: 474px) {
   .seccion-4 .div-sec-4 .divTit h1 {
-    padding: 0;
+    padding: 20px;
     font-size: 30px;
     line-height: normal;
   }
@@ -1101,9 +1108,10 @@ footer .div-footer div {
   margin: 50px auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   footer .div-footer div {
     width: 100%;
+    margin: 50px 0px;
   }
 }
 
@@ -1147,6 +1155,12 @@ footer .Desing {
       -ms-flex-align: center;
           align-items: center;
   background: #222f3e;
+}
+
+@media screen and (max-width: 400px) {
+  footer .Desing {
+    text-align: center;
+  }
 }
 
 footer .Desing p {
