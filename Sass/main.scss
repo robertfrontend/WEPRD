@@ -107,7 +107,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 @media screen and (max-width:884px){
                     margin-top: 40px;
                     width: 100%;
@@ -132,9 +132,9 @@ header{
 
                 p{
                     font-size: 20px;
-                    color: $azulito;
                     padding: 10px 20px;
                     line-height: 30px;
+                    color: $azulito;
                     @media screen and (max-width:884px){
                         text-align: center;
                     }
@@ -156,7 +156,7 @@ header{
                         padding: 14px 30px;
                         border: 0px;
                         border-radius: 5px;
-                        background: $azulito;
+                        background: $verdesito;
 
                         a{
                             font-size: 18px;
@@ -167,7 +167,7 @@ header{
                         }
                         a:hover{
                             transition: all .2s;
-                            color: #28d400;
+                            color: $azulito;
                         }
                     }
                 }
@@ -444,7 +444,7 @@ header{
 
 .seccion-4{
     width: 100%;
-    height: 100vh;
+    height: auto;
     .div-sec-4{
         width: 100%;
         height: auto;
@@ -482,7 +482,7 @@ header{
             .control-4 {
                 width:550px;
                 margin: 50px auto;
-                background-color: rgba(189, 189, 189, 0.295);
+                background-color: rgba(189, 189, 189, 0.048);
                 display: flex;
                 flex-direction: row;
                 padding: 10px;
@@ -547,10 +547,284 @@ header{
 
 }
 
+// ¡Vamos a trabajar juntos!
+
+.seccion-5{
+    width: 100%;
+    height:auto;
+    background: url(../images/office-2360063_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    @media screen and (max-width:886px){
+        background-size: cover;
+    }
+    .color {
+        width: 100%;
+        height: inherit;
+        background: rgba(228, 228, 228, 0.801);
+    }
+    .div-desc-5{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        div {
+            width: 80%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            @media screen and (max-width:886px){
+                width: 100%;
+            }
+            h1{
+                font-size: 40px;
+                padding: 0px;
+                color:$azulito;
+                @media screen and (max-width:886px){
+                    font-size: 30px;
+                }   
+            }
+            button{
+                margin: 20px 30px;
+                padding: 14px 30px;
+                border: 0px;
+                border-radius: 5px;
+                background: $verdesito;
+
+                a{
+                    font-size: 18px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color:white;
+                    
+                }
+                a:hover{
+                    transition: all .2s;
+                    color: $azulito;
+                }
+            }
+        }
+    }
+}
+
+.seccion-portafolio{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    h1{
+        font-size: 40px;
+        padding: 20px;
+        @media screen and (max-width:800px) {
+            font-size: 30px;
+            padding: 20px 0px;
+        }
+    }
+    .div-portafolio{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            padding: 20px;
+            font-size: 40px;
+            color: $azulito;
+            @media screen and (max-width:800px) {
+                font-size: 30px;
+                padding: 30px 0px;
+            }
+        }
+
+        h1::after{
+            content: ' 🚧';
+        }
+        h1::before{
+            content: '🚧 ';
+        }
+
+        div{
+            width: 100%;
+            height: 20vh;
+            button{
+                margin: 20px 30px;
+                padding: 14px 30px;
+                border: 0px;
+                border-radius: 5px;
+                background: $verdesito;
+
+                a{
+                    font-size: 18px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color:white;
+                    
+                }
+                a:hover{
+                    transition: all .2s;
+                    color: $azulito;
+                }
+            }
+        }
+    }
+}
+
+.seccion-6{
+    width: 100%;
+    height:auto;
+    background: url(../images/meeting-2284501_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .color{
+        width: 100%;
+        height: inherit;
+        background: rgba(2, 0, 29, 0.822);
+    }
+    .div-sec-6{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .pad6{
+            width: 550px;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                color:  rgba(255, 255, 255, 0.795);
+            }   
+            h1{
+                font-size: 30px;
+                color: white;
+                padding: 10px;
+                border-left: 5px solid $verdesito;
+            }
+            #div1{
+                width:100%;
+                height: auto;
+                a{
+                    color: rgba(255, 255, 255, 0.76);
+                    text-decoration: none;
+                }
+                h2{
+                    font-size: 18px;
+                    padding: 10px;
+                    color: white;
+                    border-left: 5px solid $azulito;
+                }
+
+                p{
+                    font-size: 18px;
+                    padding: 10px;
+                    color: rgba(255, 255, 255, 0.795);
+                    border-left: 5px solid $azulito;
+                }
+            }
+            #fom{
+                width: 100%;
+                form{
+                    width: 100%;
+
+                    div{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 50px;
+                        text-align: center;
+                        input{
+                            padding: 20px;
+                           width: 90%;
+                           border-radius: 10px;
+                           font-size: 16px;
+                           border: none;
+                        }
+                        textarea{
+                            width: 90%;
+                            padding: 10px;
+                            height: 20vh;
+                            border: none;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
 
 
+footer{
+    width: 100%;
+    height: auto;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(112deg, rgba(255,255,255,1) 25%, rgba(141,255,169,1) 80%, rgba(0,255,64,1) 98%);
+    background: -webkit-linear-gradient(112deg, rgba(255,255,255,1) 25%, rgba(141,255,169,1) 80%, rgba(0,255,64,1) 98%);
+    background: linear-gradient(112deg, rgba(255,255,255,1) 25%, rgba(141,255,169,1) 80%, rgba(0,255,64,1) 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00ff40",GradientType=1);
+    .div-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        div{
+            width: 250px;
+            margin: 50px auto;
+            h2{
+                color: $azulito;
+            }
+            p{
+                padding: 5px;
+                a{
+                    text-decoration: none;
+                    color: rgba(0, 0, 20, 0.733);
+                }
+                a:hover{
+                    color: $azulito;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
 
+    .Desing {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        background: #222f3e;
+        p{
+            color: white;
+            font-size: 14px;
+            padding: 20px;
 
+            a{
+                text-decoration: none;
+                color: rgba(210, 209, 212, 0.842);
+            }
+        }
+    }
+}
 
 
 

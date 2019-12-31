@@ -151,9 +151,9 @@ header .seccion-1 .div-sec-1 .l1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 @media screen and (max-width: 884px) {
@@ -187,9 +187,9 @@ header .seccion-1 .div-sec-1 .l1 h1 {
 
 header .seccion-1 .div-sec-1 .l1 p {
   font-size: 20px;
-  color: navy;
   padding: 10px 20px;
   line-height: 30px;
+  color: navy;
 }
 
 @media screen and (max-width: 884px) {
@@ -228,7 +228,7 @@ header .seccion-1 .div-sec-1 .l1 div button {
   padding: 14px 30px;
   border: 0px;
   border-radius: 5px;
-  background: navy;
+  background: #28d400;
 }
 
 header .seccion-1 .div-sec-1 .l1 div button a {
@@ -241,7 +241,7 @@ header .seccion-1 .div-sec-1 .l1 div button a {
 header .seccion-1 .div-sec-1 .l1 div button a:hover {
   -webkit-transition: all .2s;
   transition: all .2s;
-  color: #28d400;
+  color: navy;
 }
 
 header .seccion-1 .div-sec-1 .div-img-1 {
@@ -610,7 +610,7 @@ header .seccion-menu .div-sec-menu a:hover {
 
 .seccion-4 {
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .seccion-4 .div-sec-4 {
@@ -675,7 +675,7 @@ header .seccion-menu .div-sec-menu a:hover {
 .seccion-4 .div-sec-4 .div-cont .control-4 {
   width: 550px;
   margin: 50px auto;
-  background-color: rgba(189, 189, 189, 0.295);
+  background-color: rgba(189, 189, 189, 0.048);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -756,6 +756,394 @@ header .seccion-menu .div-sec-menu a:hover {
 
 .seccion-4 .div-sec-4 .div-cont .control-4:hover a {
   color: navy;
+}
+
+.seccion-5 {
+  width: 100%;
+  height: auto;
+  background: url(../images/office-2360063_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 886px) {
+  .seccion-5 {
+    background-size: cover;
+  }
+}
+
+.seccion-5 .color {
+  width: 100%;
+  height: inherit;
+  background: rgba(228, 228, 228, 0.801);
+}
+
+.seccion-5 .div-desc-5 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seccion-5 .div-desc-5 div {
+  width: 80%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 886px) {
+  .seccion-5 .div-desc-5 div {
+    width: 100%;
+  }
+}
+
+.seccion-5 .div-desc-5 div h1 {
+  font-size: 40px;
+  padding: 0px;
+  color: navy;
+}
+
+@media screen and (max-width: 886px) {
+  .seccion-5 .div-desc-5 div h1 {
+    font-size: 30px;
+  }
+}
+
+.seccion-5 .div-desc-5 div button {
+  margin: 20px 30px;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 5px;
+  background: #28d400;
+}
+
+.seccion-5 .div-desc-5 div button a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.seccion-5 .div-desc-5 div button a:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  color: navy;
+}
+
+.seccion-portafolio {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.seccion-portafolio h1 {
+  font-size: 40px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .seccion-portafolio h1 {
+    font-size: 30px;
+    padding: 20px 0px;
+  }
+}
+
+.seccion-portafolio .div-portafolio {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seccion-portafolio .div-portafolio h1 {
+  padding: 20px;
+  font-size: 40px;
+  color: navy;
+}
+
+@media screen and (max-width: 800px) {
+  .seccion-portafolio .div-portafolio h1 {
+    font-size: 30px;
+    padding: 30px 0px;
+  }
+}
+
+.seccion-portafolio .div-portafolio h1::after {
+  content: ' 🚧';
+}
+
+.seccion-portafolio .div-portafolio h1::before {
+  content: '🚧 ';
+}
+
+.seccion-portafolio .div-portafolio div {
+  width: 100%;
+  height: 20vh;
+}
+
+.seccion-portafolio .div-portafolio div button {
+  margin: 20px 30px;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 5px;
+  background: #28d400;
+}
+
+.seccion-portafolio .div-portafolio div button a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.seccion-portafolio .div-portafolio div button a:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  color: navy;
+}
+
+.seccion-6 {
+  width: 100%;
+  height: auto;
+  background: url(../images/meeting-2284501_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.seccion-6 .color {
+  width: 100%;
+  height: inherit;
+  background: rgba(2, 0, 29, 0.822);
+}
+
+.seccion-6 .div-sec-6 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccion-6 .div-sec-6 .pad6 {
+  width: 550px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seccion-6 .div-sec-6 .pad6 p {
+  color: rgba(255, 255, 255, 0.795);
+}
+
+.seccion-6 .div-sec-6 .pad6 h1 {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  border-left: 5px solid #28d400;
+}
+
+.seccion-6 .div-sec-6 .pad6 #div1 {
+  width: 100%;
+  height: auto;
+}
+
+.seccion-6 .div-sec-6 .pad6 #div1 a {
+  color: rgba(255, 255, 255, 0.76);
+  text-decoration: none;
+}
+
+.seccion-6 .div-sec-6 .pad6 #div1 h2 {
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  border-left: 5px solid navy;
+}
+
+.seccion-6 .div-sec-6 .pad6 #div1 p {
+  font-size: 18px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.795);
+  border-left: 5px solid navy;
+}
+
+.seccion-6 .div-sec-6 .pad6 #fom {
+  width: 100%;
+}
+
+.seccion-6 .div-sec-6 .pad6 #fom form {
+  width: 100%;
+}
+
+.seccion-6 .div-sec-6 .pad6 #fom form div {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.seccion-6 .div-sec-6 .pad6 #fom form div input {
+  padding: 20px;
+  width: 90%;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.seccion-6 .div-sec-6 .pad6 #fom form div textarea {
+  width: 90%;
+  padding: 10px;
+  height: 20vh;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: white;
+  background: linear-gradient(112deg, white 25%, #8dffa9 80%, #00ff40 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00ff40",GradientType=1);
+}
+
+footer .div-footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .div-footer div {
+  width: 250px;
+  margin: 50px auto;
+}
+
+footer .div-footer div h2 {
+  color: navy;
+}
+
+footer .div-footer div p {
+  padding: 5px;
+}
+
+footer .div-footer div p a {
+  text-decoration: none;
+  color: rgba(0, 0, 20, 0.733);
+}
+
+footer .div-footer div p a:hover {
+  color: navy;
+}
+
+footer .div-footer div img {
+  width: 100%;
+}
+
+footer .Desing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #222f3e;
+}
+
+footer .Desing p {
+  color: white;
+  font-size: 14px;
+  padding: 20px;
+}
+
+footer .Desing p a {
+  text-decoration: none;
+  color: rgba(210, 209, 212, 0.842);
 }
 
 @font-face {
