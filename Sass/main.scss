@@ -67,7 +67,7 @@ header{
             a{
                 padding: 10px 15px;
                 text-decoration: none;
-                color: navy;
+                color: $azulito;
                 font-size: 17px;
 
                 i{
@@ -119,6 +119,7 @@ header{
                 @media screen and (max-width:884px){
                     margin-top: 40px;
                     width: 100%;
+                    align-items: center;
                 }
 
                 h1{
@@ -471,6 +472,7 @@ header{
             h1{
                 font-size: 40px;
                 padding:20px;
+                color: $azulito;
 
                 @media screen and (max-width:474px){
                     padding: 20px;

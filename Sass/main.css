@@ -167,6 +167,9 @@ header .seccion-1 .div-sec-1 .l1 {
   header .seccion-1 .div-sec-1 .l1 {
     margin-top: 40px;
     width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -649,6 +652,7 @@ header .seccion-menu .div-sec-menu a:hover {
 .seccion-4 .div-sec-4 .divTit h1 {
   font-size: 40px;
   padding: 20px;
+  color: navy;
 }
 
 @media screen and (max-width: 474px) {
