@@ -784,9 +784,13 @@ footer{
         height: auto;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         div{
             width: 250px;
             margin: 50px auto;
+            @media screen and (max-width:400px) {
+                width: 100%;
+            }
             h2{
                 color: $azulito;
             }
@@ -802,6 +806,10 @@ footer{
             }
             img {
                 width: 100%;
+
+                @media screen and (max-width:800px) {
+                   width: 80%;
+                }
             }
         }
     }

@@ -1092,11 +1092,19 @@ footer .div-footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer .div-footer div {
   width: 250px;
   margin: 50px auto;
+}
+
+@media screen and (max-width: 400px) {
+  footer .div-footer div {
+    width: 100%;
+  }
 }
 
 footer .div-footer div h2 {
@@ -1118,6 +1126,12 @@ footer .div-footer div p a:hover {
 
 footer .div-footer div img {
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  footer .div-footer div img {
+    width: 80%;
+  }
 }
 
 footer .Desing {
