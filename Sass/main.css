@@ -12,6 +12,11 @@ body {
   cursor: default;
 }
 
+html {
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+}
+
 .contenedor {
   margin-left: 5%;
   margin-right: 5%;
@@ -445,10 +450,10 @@ header .seccion-menu .div-sec-menu a:hover {
 }
 
 .seccion-2 .div-sec-2 .tarject .div-btn-tarje :after {
-  content: '→';
+  content: ' →';
   font-weight: bold;
   color: #28d400;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .seccion-2 .div-sec-2 .tarject .div-btn-tarje :hover {
@@ -545,8 +550,11 @@ header .seccion-menu .div-sec-menu a:hover {
 }
 
 .seccion-3 .div-sec-3 .control-3 div h1 {
+  text-align: left;
   font-size: 40px;
+  padding: 10px 20px;
   color: navy;
+  line-height: 80px;
 }
 
 @media screen and (max-width: 474px) {
@@ -607,7 +615,8 @@ header .seccion-menu .div-sec-menu a:hover {
 }
 
 .seccion-3 .div-sec-3 .control-3 .proj div h2 {
-  color: rgba(13, 0, 70, 0.822);
+  font-size: 20px;
+  color: navy;
 }
 
 @media screen and (max-width: 474px) {
@@ -650,9 +659,11 @@ header .seccion-menu .div-sec-menu a:hover {
 }
 
 .seccion-4 .div-sec-4 .divTit h1 {
+  text-align: left;
   font-size: 40px;
-  padding: 20px;
+  padding: 10px 20px;
   color: navy;
+  line-height: 80px;
 }
 
 @media screen and (max-width: 474px) {

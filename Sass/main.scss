@@ -11,6 +11,32 @@ body{
     
 }
 
+html {
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+
+@mixin titulo-1 {
+    text-align:left;
+    font-size: 60px;
+    padding: 10px 20px;
+    color: $azulito;
+    line-height: 80px;
+}
+
+@mixin titulo-3 {
+    text-align:left;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: $azulito;
+    line-height: 80px;
+}
+
+@mixin titulo-2 {
+    font-size: 25px;
+    color: $azulito;
+}
+
 $verdesito: #28d400;
 $azulito:navy;
 
@@ -23,9 +49,6 @@ $azulito:navy;
         margin-left: 0;
     }
 }
-
-
-
 
 header{
     width: 100%;
@@ -123,11 +146,7 @@ header{
                 }
 
                 h1{
-                    text-align:left;
-                    font-size: 60px;
-                    padding: 10px 20px;
-                    color: $azulito;
-                    line-height: 80px;
+                    @include titulo-1();   
                     @media screen and (max-width:884px){
                         text-align: center;
                     }
@@ -305,8 +324,7 @@ header{
                 margin-top: 30px;
 
                 h1{
-                    font-size: 25px;
-                    color: $azulito;
+                    @include titulo-2;
                     @media screen and (max-width:474px){
                         padding: 0;
                         font-size: 20px;
@@ -331,10 +349,10 @@ header{
                 }
 
                 :after{
-                    content: '→';
+                    content: ' →';
                     font-weight: bold;
                     color: $verdesito;
-                    font-size:30px;
+                    font-size:20px;
                 }
 
                 :hover{
@@ -403,8 +421,7 @@ header{
                 
 
                 h1{
-                    font-size: 40px;
-                    color: $azulito;
+                    @include titulo-3();
 
                     @media screen and (max-width:474px){
                         padding: 0;
@@ -439,7 +456,8 @@ header{
                         line-height:normal;
                     }
                     h2{
-                        color:rgba(13, 0, 70, 0.822);
+                        font-size: 20px;
+                        color: $azulito;
                         @media screen and (max-width:474px){
                             padding: 0;
                             font-size: 20px;
@@ -470,9 +488,7 @@ header{
                 width: 100%;
             }
             h1{
-                font-size: 40px;
-                padding:20px;
-                color: $azulito;
+                @include titulo-3();
 
                 @media screen and (max-width:474px){
                     padding: 20px;
