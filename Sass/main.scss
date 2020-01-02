@@ -600,8 +600,7 @@ header{
     background-attachment: fixed;
     background-position: center;
     @media screen and (max-width:886px){
-        background-size:cover;
-        background-position: center;
+        background-size: cover;
     }
     .color {
         width: 100%;
@@ -618,7 +617,7 @@ header{
         flex-direction: column;
         div {
             width: 80%;
-            height: auto;
+            height: 80vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -726,10 +725,6 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    @media screen and (max-width:886px){
-        background-size:auto;
-        background-position: center;
-    }
     .color{
         width: 100%;
         height: inherit;
