@@ -377,9 +377,10 @@ header .seccion-menu .div-sec-menu a:hover {
 }
 
 .seccion-2 .div-sec-2 .tarject {
-  width: 300px;
+  width: 350px;
   margin: 50px auto;
   height: auto;
+  padding: 10px;
 }
 
 .seccion-2 .div-sec-2 .tarject .divImg {
@@ -400,6 +401,13 @@ header .seccion-menu .div-sec-menu a:hover {
   background: linear-gradient(112deg, #00ff33 0%, #004fb4 0%, #005aad 10%, #00ff40 62%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ff33",endColorstr="#00ff40",GradientType=1);
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.seccion-2 .div-sec-2 .tarject .divImg div :hover {
+  -webkit-transition: all 5.2s;
+  transition: all 5.2s;
+  -webkit-transform: rotateY(500deg);
+          transform: rotateY(500deg);
 }
 
 .seccion-2 .div-sec-2 .tarject .divImg div img {
@@ -460,6 +468,13 @@ header .seccion-menu .div-sec-menu a:hover {
   -webkit-transition: all .2s;
   transition: all .2s;
   color: navy;
+}
+
+.seccion-2 .div-sec-2 .tarject:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  border-radius: 20px;
+  background-color: rgba(219, 219, 219, 0.349);
 }
 
 .seccion-3 {
@@ -767,8 +782,8 @@ header .seccion-menu .div-sec-menu a:hover {
 }
 
 .seccion-4 .div-sec-4 .div-cont .control-4 div a::after {
-  font-size: 30px;
-  content: '→';
+  font-size: 20px;
+  content: ' →';
 }
 
 .seccion-4 .div-sec-4 .div-cont .control-4:hover {
@@ -801,7 +816,8 @@ header .seccion-menu .div-sec-menu a:hover {
 
 @media screen and (max-width: 886px) {
   .seccion-5 {
-    background-size: cover;
+    background-size: auto;
+    background-position: center;
   }
 }
 
@@ -977,6 +993,13 @@ header .seccion-menu .div-sec-menu a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 886px) {
+  .seccion-6 {
+    background-size: auto;
+    background-position: center;
+  }
 }
 
 .seccion-6 .color {
