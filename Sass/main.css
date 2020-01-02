@@ -816,7 +816,7 @@ header .seccion-menu .div-sec-menu a:hover {
 
 @media screen and (max-width: 886px) {
   .seccion-5 {
-    background-size: auto;
+    background-size: cover;
     background-position: center;
   }
 }
@@ -848,7 +848,7 @@ header .seccion-menu .div-sec-menu a:hover {
 
 .seccion-5 .div-desc-5 div {
   width: 80%;
-  height: 80vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
